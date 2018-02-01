@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+        <script src="main.js"></script>      
+        
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Sirotilja_Valley</h3>
+            <p>
+               Molimo Vas da popunite podatke kako bi se mogli prijaviti!
+            </p>
+            <hr>
+            <label id="error">
+
+            </label>
+
+            <label id="success">
+
+            </label>
+            <div class="form">
+                <div class="form-group">
+                    <h3>
+                    Prijava
+                    </h3>
+                    <hr>
+                    <div class="form-row">
+                        <div class="form-label">
+                            Naziv tima:
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="Naziv tima" name="nazivTima" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            Zaporka tima:
+                        </div>
+                        <div class="form-input">
+                            <input type="password" placeholder="Zaporka tima" name="zaporkaTima" />
+                        </div>
+                    </div>
+                    
+                </div>
+
+              
+
+                <div class="form-group">
+                    <div class="form-row">
+                        <button onclick="Prijava()">Registriraj se!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+        <script src="main.js"></script>      
+        
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Sirotilja_Valley</h2>
+            <p>
+               Prikaz podataka!
+            </p>
+            <hr>
+            <label id="error">
+
+            </label>
+
+            <label id="success">
+
+            </label>
+            <div class="form">
+                <div class="form-group">
+                    <h3>
+                    Podaci o timu
+                    </h3>
+                    <hr>
+                    <div class="form-row">
+                        <div class="form-label">
+                            Naziv tima:
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="Naziv tima" name="nazivTima" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            Zaporka tima:
+                        </div>
+                        <div class="form-input">
+                            <input type="password" placeholder="Zaporka tima" name="zaporkaTima" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            ID Tima:
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="ID" name="idTima" />
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="form-group" id="popuni">
+                    <h3>
+                    Podaci o članovima
+                    </h3>
+                    <hr>
+                    
+                  </div>      
+            </div>
+        </div>
+
+    <script>
+    DohvatiPodatke();
+    </script>
+
+        <hr>
+    </body>
+</html>

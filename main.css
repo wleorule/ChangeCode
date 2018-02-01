@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    background: #6C7A89;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    color:#FFF;
+}
+
+hr.short{
+    width:50%;
+}
+
+.container {
+    width:1024px;
+    height:auto;
+    position: relative;
+    margin: auto auto;
+}
+
+body p {
+    text-align: center;
+    font-size:14px;
+}
+body h2{
+    font-size:24px;
+    text-align: center;
+}
+body hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #95A5A6;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.form {
+    width:100%;
+}
+
+.form .form-group {
+    width: 50%;
+    height:auto;
+    position: relative;
+    margin: auto auto;
+}
+.form .form-group:last-child {
+    margin-top:35px;
+}
+.form .form-group hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #56616d;
+    margin: 1em 0;
+    padding: 0; 
+}
+.form .form-group .form-row{
+    height:30px;
+    margin-top:5px;
+}
+.form .form-group .form-row .form-label {
+    width:20%;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    line-height:30px;
+}
+.form .form-group .form-row .form-input {
+    width:80%;
+    float: left;
+}
+.form .form-group .form-row .form-input input {
+    width:100%;
+    height:30px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border:0;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.form .form-group .form-row button {
+    width:100%;
+    height:30px;
+    border: 0;
+    background: #c4c9cf;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.shadow {
+    color:#b5bcc4;
+}
+
+#error {
+    color:red;
+    text-align: center;
+}
+
+#success {
+    color:green;
+    text-align: center;
+}
